@@ -45,10 +45,12 @@ export function Navbar() {
         </ul>
 
         <div className="hidden md:block">
-          <Button size="sm" className="gap-2 bg-primary text-primary-foreground hover:bg-primary/90">
-            <Download className="h-4 w-4" />
-            Download Resume
-          </Button>
+          <a href="/Prashant_Sharma_Resume.pdf" download>
+            <Button size="sm" className="gap-2 bg-primary text-primary-foreground hover:bg-primary/90">
+              <Download className="h-4 w-4" />
+              Download Resume
+            </Button>
+          </a>
         </div>
 
         {/* Mobile menu toggle */}
@@ -83,10 +85,12 @@ export function Navbar() {
                 </li>
               ))}
               <li className="pt-2">
-                <Button size="sm" className="w-full gap-2 bg-primary text-primary-foreground hover:bg-primary/90">
-                  <Download className="h-4 w-4" />
-                  Download Resume
-                </Button>
+                <a href="/Prashant_Sharma_Resume.pdf" download>
+                  <Button size="sm" className="w-full gap-2 bg-primary text-primary-foreground hover:bg-primary/90">
+                    <Download className="h-4 w-4" />
+                    Download Resume
+                  </Button>
+                </a>
               </li>
             </ul>
           </motion.div>
